@@ -1,0 +1,114 @@
+:root {
+  --typography-font-family: 'Inter';
+  
+  --typography-title-font-weight: 700;
+  --typography-title-font-size: 48px;
+  --typography-title-font-line-height: 58.09px;
+
+  --typography-subtitle-font-weight: 700;
+  --typography-subtitle-font-size: 32px;
+  --typography-subtitle-font-line-height: 38.73px;
+
+  --typography-body-font-weight: 400;
+  --typography-body-font-size: 16px;
+  --typography-body-font-line-height: 19.36px;
+
+  --color-background: #FFFFFF;
+  --color-button: linear-gradient(180deg, #E4E4E4 0%, #F7F7F7 100%);
+  --color-invalid: #BF0E0E;
+
+  --color-accent-text: #4E9590;
+  --color-brackets: #F2CAB8;
+
+  --color-dark: #000000;
+  --color-gray: #BFBFBF;
+}
+
+body {
+  font-family: var(--typography-font-family);
+}
+
+ul {
+  border-left: 1px solid var(--color-gray);
+  padding-left: 20px;
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32vh;
+}
+
+#viewerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+}
+
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-flex {
+  display: flex !important;
+}
+
+.typography-title {
+  font-weight: var(--typography-title-font-weight);
+  font-size: var(--typography-title-font-size);
+  line-height: var(--typography-title-font-line-height);
+  color: var(--color-dark) default;
+}
+
+.typography-subtitle {
+  font-weight: var(--typography-subtitle-font-weight);
+  font-size: var(--typography-subtitle-font-size);
+  line-height: var(--typography-subtitle-font-line-height);
+  color: var(--color-dark) default;
+}
+
+.typography-body {
+  font-weight: var(--typography-body-font-weight);
+  font-size: var(--typography-body-font-size);
+  line-height: var(--typography-body-font-line-height);
+  color: var(--color-dark) default;
+}
+
+.color-invalid {
+  color: var(--color-invalid);
+}
+
+.color-accent-text {
+  color: var(--color-accent-text);
+}
+
+.color-brackets {
+  color: var(--color-brackets);
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+
+.color-gray {
+  color: var(--color-gray);
+}
+
+rf-typography {
+  padding-bottom: 1rem;
+}
+
+.rf-upload-button--default {
+  padding: 4px 12px;
+  border: 1px solid var(--color-dark);
+  border-radius: 5px;
+  gap: 10px;
+  color: var(--color-button);
+  opacity: 0.7;
+}

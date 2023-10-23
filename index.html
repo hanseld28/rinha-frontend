@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JSON Tree Viewer</title>
+    <meta name="description" content="JSON Tree Viewer for Rinha Frontend Challenge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <section id="mainContent">
+      <rf-typography variant="title">
+        JSON Tree Viewer
+      </rf-typography>
+        
+      <rf-typography variant="body">
+        Simple JSON Viewer that runs completely on-client. No data exchange
+      </rf-typography>
+
+      <rf-upload-button>
+        Load JSON
+      </rf-upload-button>
+    </section>
+    <section id="viewerContent" class="d-none">
+      <rf-typography class="d-flex" variant="subtitle">
+        alltypes.json
+      </rf-typography>
+      <rf-typography class="d-flex">
+        Actors
+        <rf-typography>:</rf-typography>
+        <rf-typography variant="title">[</rf-typography>
+      </rf-typography>
+      <ul>
+
+      </ul>
+    </section>
+
+    <script src="./main.js" async defer></script>
+  </body>
+</html>
