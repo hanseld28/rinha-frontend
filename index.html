@@ -11,11 +11,11 @@
   </head>
   <body>
     <section id="mainContent">
-      <rf-typography variant="title">
+      <rf-typography class="pb-4" variant="title">
         JSON Tree Viewer
       </rf-typography>
-        
-      <rf-typography variant="body">
+
+      <rf-typography class="pb-4" variant="body">
         Simple JSON Viewer that runs completely on-client. No data exchange
       </rf-typography>
 
@@ -23,19 +23,7 @@
         Load JSON
       </rf-upload-button>
     </section>
-    <section id="viewerContent" class="d-none">
-      <rf-typography class="d-flex" variant="subtitle">
-        alltypes.json
-      </rf-typography>
-      <rf-typography class="d-flex">
-        Actors
-        <rf-typography>:</rf-typography>
-        <rf-typography variant="title">[</rf-typography>
-      </rf-typography>
-      <ul>
-
-      </ul>
-    </section>
+    <section id="viewerContent" class="d-none"></section>
 
     <script src="./main.js" async defer></script>
   </body>

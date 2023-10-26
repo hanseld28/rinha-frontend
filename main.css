@@ -1,6 +1,6 @@
 :root {
   --typography-font-family: 'Inter';
-  
+
   --typography-title-font-weight: 700;
   --typography-title-font-size: 48px;
   --typography-title-font-line-height: 58.09px;
@@ -31,6 +31,9 @@ body {
 ul {
   border-left: 1px solid var(--color-gray);
   padding-left: 20px;
+  margin-left: 1px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 #mainContent {
@@ -55,8 +58,20 @@ ul {
 .d-block {
   display: block !important;
 }
+.d-inline-block {
+  display: inline-block !important;
+}
 .d-flex {
   display: flex !important;
+}
+.pr-2 {
+  padding-right: 0.5rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
+}
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .typography-title {
@@ -98,10 +113,6 @@ ul {
 
 .color-gray {
   color: var(--color-gray);
-}
-
-rf-typography {
-  padding-bottom: 1rem;
 }
 
 .rf-upload-button--default {
